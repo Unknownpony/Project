@@ -7,9 +7,14 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\sprite1</sprite>
+    <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\sprite3</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\background0</background>
+    <background>background\BG_menu</background>
+    <background>background\BG_level_1</background>
+    <background>background\background4</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -28,9 +33,18 @@
     <objects name="Test">
       <object>objects\object4</object>
     </objects>
+    <objects name="Main_menu_buttons">
+      <object>objects\Start_game_button</object>
+      <object>objects\End_game_button</object>
+    </objects>
+    <objects name="Game flow">
+      <object>objects\Game_flow</object>
+      <object>objects\Battle_initial</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Test</room>
+    <room>rooms\RM_Main_Menu</room>
+    <room>rooms\RM_Battle_room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
