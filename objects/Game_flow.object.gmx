@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>/// Main resources, stats and initialization of Amry and Castle
+Current_level = 1
 Level = 1
 Gold = 300
 Crystal = 0

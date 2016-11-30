@@ -31,7 +31,24 @@ switch (Game_flow.Level)
 {
     //Level 1
     case 1: 
-        instance_create(100, 100, object4);
+        //User Army
+        for (i=0; i&lt;1; i+=1)
+        {
+            for (x=0; x&lt;3; x+=1)
+            {
+                split
+            };   
+        };
+        
+        //Initial battle
+        //Enemy army
+        for (i=0; i&lt;1; i+=1)
+        {
+            for (x=0; x&lt;3; x+=1)
+            {
+                split
+            };   
+        };
         break;
     //Level 2
     case 2: 
